@@ -7,3 +7,5 @@ RUN npm -g install gulp-cli@2.2.0; \
     gulp --help;
 
 WORKDIR /src
+
+ENTRYPOINT ["gulp"]
